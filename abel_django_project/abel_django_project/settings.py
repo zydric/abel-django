@@ -55,7 +55,7 @@ ROOT_URLCONF = 'abel_django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["templates/"],
+        'DIRS': ["templates/abel_app"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
